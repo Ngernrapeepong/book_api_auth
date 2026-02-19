@@ -38,7 +38,7 @@ def create_book():
         "author": data["author"],
         "image_url": data["image_url"]
     }
-
+#ad
     books.append(new_book)
     return jsonify(new_book), 201
 

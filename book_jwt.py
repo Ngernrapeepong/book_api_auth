@@ -13,7 +13,7 @@ books = [
     { "id": 7, "title": "Goodnight Punpun, Vol.1", "author": "Inio Asano", "image_url": "https://m.media-amazon.com/images/I/917IJDfk36L._SY425_.jpg", "price": 13.46 },
     { "id": 8, "title": "Solo Leveling, Vol. 1", "author": "Chugong", "image_url": "https://m.media-amazon.com/images/I/816hywlmu-L._SY425_.jpg", "price": 11.99 }
     ];
-
+#ad
 app = Flask(__name__)
 CORS(app)
 app.config['CORS_HEADERS']='Content-Type'
